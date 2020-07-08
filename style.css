@@ -2,6 +2,10 @@
 .container {
     margin-bottom: 70px;
 }
+.navbar {
+    font-weight: 600;
+    font-size: 18px;
+}
 .main {
     background-color: rgb(205, 231, 235);
     margin-bottom: 50px;
@@ -27,7 +31,7 @@
     cursor: pointer;
 }
 .container .logo {
-    width: 160px;
+    width: 200px;
 }
 .highlight-text {
     color: #10ac84;
@@ -78,4 +82,21 @@ h2 {
 footer {
     font-weight: 300;
     font-size: 14px;
+}
+.subscribe {
+    width: 60%;
+    height: 250px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(205, 231, 235);
+    border-radius: 10px;
+}
+.subscribe-item {
+    position: relative;
+    padding: 25px;
+}
+.subscribe input {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 8px 20px;
 }
