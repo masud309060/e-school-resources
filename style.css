@@ -1,9 +1,11 @@
 
 .container {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 .main {
     background-color: rgb(205, 231, 235);
+    margin-bottom: 50px;
+
 }
 .main h1 {
     font-weight: 700;
@@ -16,8 +18,16 @@
     padding: 8px 25px;
     cursor: pointer;
 }
+.buy-now-button {
+    background-color: #10ac84;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 6px 25px;
+    cursor: pointer;
+}
 .container .logo {
-    width: 150px;
+    width: 160px;
 }
 .highlight-text {
     color: #10ac84;
@@ -36,14 +46,36 @@
 .box-style {
     padding: 50px 0px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.2);
+    box-shadow: 0px 0px 5px rgba(60, 60, 60, 0.1);
 }
 .box-style:hover {
-    box-shadow: none;
-    border: 1px solid #10ac8467;
+    box-shadow: 0px 0px 15px rgba(60, 60, 60, 0.2);
 
 }
 .box-style h5 {
     margin-top: 10px;
 
+}
+h2 {
+    font-weight: 700;
+}
+.card {
+    border: none;
+    box-shadow: 0px 0px 15px rgba(60, 60, 60, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+.card img {
+    padding: 20px;
+    height: 250px;
+}
+.card:hover {
+    box-shadow: none; 
+}
+.testimonial img{
+    width: 100px;
+}
+footer {
+    font-weight: 300;
+    font-size: 14px;
 }
