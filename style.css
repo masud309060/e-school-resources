@@ -1,0 +1,49 @@
+
+.container {
+    margin-bottom: 50px;
+}
+.main {
+    background-color: rgb(205, 231, 235);
+}
+.main h1 {
+    font-weight: 700;
+}
+.sign-in-button, .get-start-button {
+    background-color: #10ac84;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+.container .logo {
+    width: 150px;
+}
+.highlight-text {
+    color: #10ac84;
+}
+.main h6 {
+    color: red;
+    font-weight: 400;
+}
+.main-image {
+    width: 100%;
+}
+
+.col-md-3 img {
+    width: 50px;
+}
+.box-style {
+    padding: 50px 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.2);
+}
+.box-style:hover {
+    box-shadow: none;
+    border: 1px solid #10ac8467;
+
+}
+.box-style h5 {
+    margin-top: 10px;
+
+}
